@@ -1,0 +1,15 @@
+{
+  "name": "dindinapi",
+  "version": "1.0.0",
+  "description": "fake api for dindin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiap-grupo-4/DinDinApi.git"
+  },
+  "scripts": {
+    "start": "json-server --watch db.json5 --port $PORT"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.15"
+  }
+}
